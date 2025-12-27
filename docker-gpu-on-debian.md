@@ -1,6 +1,6 @@
 # How to get Docker GPU working on Debian
 
-As of 2025-09-14, you must use Debian 12 because NVIDIA doesn't have their proprietary drivers ready for Debian 13 yet. You can check to see what Debian releases are supported by NVIDIA here:
+You can check to see what Debian releases are supported by NVIDIA here:
 https://developer.download.nvidia.com/compute/cuda/repos/
 
 I chose to use the repository-based installation method from NVIDIA as opposed to the `.run` file installers, so that updates are easier to get in the future.
